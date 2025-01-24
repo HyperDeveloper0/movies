@@ -71,8 +71,8 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://vault.pictures/p/52fd8b4a4a554af7a987cb2f43987d0d')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://vault.pictures/p/a1c9c96cfd544d37ab494f701358ab14'))
+PAYPICS = (environ.get('PAYPICS', 'https://i.ibb.co/6WjQ1WJ/file-65.jpg')).split()
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://i.ibb.co/6WjQ1WJ/file-65.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
